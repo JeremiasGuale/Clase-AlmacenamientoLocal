@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Datos de Clientes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Ingreso de Datos de Clientes</h2>
+        <div id="alert" class="alert" style="display: none;"></div>
+        <form id="clienteForm">
+            <div class="form-group">
+                <label for="cedula">Cédula:</label>
+                <input type="text" id="cedula" name="cedula" required>
+            </div>
+            <div class="form-group">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+            <div class="form-group">
+                <label for="nombres">Nombres:</label>
+                <input type="text" id="nombres" name="nombres" required>
+            </div>
+            <div class="form-group">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <button type="submit">Guardar</button>
+        </form>
+        <button id="newPageButton">Nueva Página</button>
+        <a href="ver_datos.html" class="link">Ver Datos Guardados</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
